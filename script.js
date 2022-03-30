@@ -35,8 +35,8 @@ function insert(){
       }
       else{
       	m++;
-      	console.log(m);
       }
+
       element.checked = false;
       i=i+1;
 
@@ -72,7 +72,7 @@ function completed(){
 	  var comp = document.querySelectorAll('.check');
 	  var par = document.getElementById('para');
     var child = par.children;
-	//console.log(comp);
+	
   	var j=0;
   	comp.forEach(element => {
       if(element.checked){
@@ -126,7 +126,6 @@ function all1(){
     	comp.forEach(element => {
       
         var current = child[j];
-        console.log(current);
         current.classList.remove("hiding");
       
         j=j+1;
