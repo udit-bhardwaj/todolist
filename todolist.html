@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+
+
+<div id="outer">
+
+<div class="div">
+    <input type="text" id="todo" class="new">
+    <button id="btn" class="hide" onclick="insert()">+</button>
+</div>
+
+<div class="details">
+    <p id='tasks'>Tasks left : <span id="count">0</span></p>
+	  <button id="button" onclick="addclassudcompl()">complete selected tasks</button>
+</div>
+
+<div id="btn1">
+    <p class="in" id="comp" onclick="completed()">Completed</p>
+    <p class="in" id="notcomp" onclick="pending()">Not Completed</p>
+	  <p class="in" id="all" onclick="all1()">All</p>
+</div>	
+
+<p id="para">
+</p>
+
+</div>
+
+<p></p>
+
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
